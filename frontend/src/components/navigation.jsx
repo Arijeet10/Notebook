@@ -44,7 +44,7 @@ function NavBar() {
                             </Link>
                         </IconButton>
                         <Typography variant="h6" className={classes.title}>
-                            Notes
+                            NoteBook
                         </Typography>
                         <Link to={'/add/'} style={{ textDecoration: "none" }}>
                             <Button style={{ color: "#fafafa" }}>Add Note</Button>
