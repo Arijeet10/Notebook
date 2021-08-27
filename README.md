@@ -41,4 +41,17 @@
 -run the react app in frontend folder
   
     npm start
+    
+# App Features
+
+-Save your notes dynamically on cloud server
+
+-User Authentication to secure your data
+
+-login to view your saved notes dynamically from the server
+
+-Edit your note
+
+-Delete the particular note
+
 
