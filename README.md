@@ -1,3 +1,3 @@
 # Notebook
 
-![note app](https://user-images.githubusercontent.com/87312638/130132520-930bbe4e-f9b8-4a49-8401-e93907dc78ad.png)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/87312638/131119395-6eb21199-48f9-4b90-beb0-df9986c5b27e.gif)
