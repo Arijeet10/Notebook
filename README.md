@@ -33,7 +33,7 @@
 -go to frontend folder and install required dependencies
   
     cd frontend
-    
+
     npm install
     
 -run the react app in frontend folder
