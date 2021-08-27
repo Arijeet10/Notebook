@@ -30,9 +30,11 @@
   
     npm start
 
--go to frontend folder and install required dependencies
+-go to frontend folder
   
     cd frontend
+
+-and install required dependencies
 
     npm install
     
