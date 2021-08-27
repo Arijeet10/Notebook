@@ -49,7 +49,7 @@ function NavBar() {
                         <Link to={'/add/'} style={{ textDecoration: "none" }}>
                             <Button style={{ color: "#fafafa" }}>Add Note</Button>
                         </Link>
-                        <Button color="inherit">Login</Button>
+                        <Button color="inherit">Arijeet</Button>
                     </Toolbar>
                 </AppBar>
             </MuiThemeProvider>

@@ -18,6 +18,9 @@ function App() {
         <Route path="/edit/:id">
           <Edit />
         </Route>
+        <Route>
+          Error 404 Not found
+        </Route>
       </Switch>
     </Router>  
   );

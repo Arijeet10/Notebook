@@ -25,10 +25,10 @@ function Home() {
             {
                 notes ? (
                     <div style={{ marginTop: 20 }}>
-                    <Grid container spacing={2}>
+                    <Grid container spacing={4}>
                         {notes.map(
                             (note, index) =>
-                                <Grid item key={index} xs={6} md={3} lg={4}>
+                                <Grid item key={index} xs={12} md={4} lg={3}>
                                     <Paper>
                                         <Notes key={index} note={note} />
                                     </Paper>

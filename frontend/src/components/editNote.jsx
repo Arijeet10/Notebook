@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             margin: theme.spacing(1),
-            width: '25ch',
+            width: '185ch',
         },
     },
 }));
@@ -52,13 +52,13 @@ function Edit(props) {
             <NavBar />
             {console.log(props)}
             <form onSubmit={handleSubmit} className={classes.root} noValidate autoComplete="off">
-                <TextField label="Title" variant="outlined" name="title" value={state.title} onChange={handleChange} />
-                <br />
-                <TextField multiline rows={4} label="Details" variant="outlined" name="details" value={state.details} onChange={handleChange} />
-                <br />
-                <Button onClick={handleSubmit} style={{ color: "#2196f3" }}>
+                <div>
+                <TextField label="Title" variant="outlined" name="title" value={state.title} onChange={handleChange} style={{width:"170ch"}} />
+                <Button onClick={handleSubmit} style={{ float:"right",color: "#2196f3" }}>
                     <SaveIcon />
                 </Button>
+                </div>
+                <TextField multiline rows={30} label="Details" variant="outlined" name="details" value={state.details} onChange={handleChange} />
             </form>
         </React.Fragment>
 
